@@ -22,15 +22,9 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [
-    'react',
     'prettier',
-    'react-hooks'
   ],
   rules: {
     'prettier/prettier': 'error',
-    'react/jsx-one-expression-per-line': 0,
-    'react/jsx-filename-extension': 0,
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
   },
 };
